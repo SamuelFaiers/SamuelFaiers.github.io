@@ -5,6 +5,7 @@ html {
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
+    letter-spacing: 0.02em;
     color: #4f4f4f;
     background: #ffffff;
 }
@@ -208,8 +209,8 @@ footer {
 .thumbnail img {
     -webkit-filter: brightness(90%) contrast(90%);
     filter: brightness(90%) contrast(90%);
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .label {
@@ -219,6 +220,8 @@ footer {
     right: 0;
     padding: 0.5em;
     background: rgba(79, 79, 79, 0.75);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .label p {
@@ -230,13 +233,13 @@ footer {
 }
 
 .thumbnail:hover img {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .thumbnail:hover .label {
     color: #4f4f4f;
-    background: rgba(244, 244, 244, 0.75);
+    background: rgba(255, 255, 255, 0.75);
 }
 
 .thumbnail:hover h4, .thumbnail:hover p {
