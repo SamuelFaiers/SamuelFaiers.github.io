@@ -315,6 +315,10 @@ img.final {
         padding: 4.5em 0 0;
     }
     
+    .page-content {
+        padding: 3em 0 0;
+    }
+    
     .text-block {
         margin-bottom: 3em;
     }
@@ -345,5 +349,9 @@ img.final {
     
     .page-intro {
         padding: 6em 0 0;
+    }
+    
+    .page-content {
+        padding: 4.5em 0 0;
     }
 }
