@@ -55,7 +55,7 @@ p:last-child {
 
 .full-width {
     width: 100%;
-    max-width: initial;
+    max-width: 1920px;
 }
 
 header {
@@ -148,7 +148,7 @@ footer {
 }
 
 .red {
-    margin: 2em auto 1.3em;
+    margin: 2em auto 0;
 }
 
 .red a {
