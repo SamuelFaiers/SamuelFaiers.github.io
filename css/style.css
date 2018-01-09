@@ -233,6 +233,8 @@ footer {
 .thumbnail:hover img {
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
+    filter: brightness(100%) contrast(100%);
+    -webkit-filter: brightness(100%) contrast(100%);
 }
 
 .service {
