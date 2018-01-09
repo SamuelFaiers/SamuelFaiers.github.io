@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 1;
     text-align: center;
@@ -175,11 +175,6 @@ footer {
     max-width: 40em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
-}
-
-.text-block.no-margin {
-    margin: 0 auto !important;
 }
 
 .logo {
@@ -255,7 +250,7 @@ footer {
 .tags {
     text-align: center;
     list-style: none;
-    margin: 1em auto;
+    margin: 1em auto 0;
     padding: 0;
 }
 
@@ -274,7 +269,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1.875em;
+    margin: 1.875em auto;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -286,7 +281,7 @@ img.final {
 @media only screen and (min-width: 640px) {
     
     h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     
     nav ul li a {
@@ -311,10 +306,6 @@ img.final {
     
     .page-content {
         padding: 3em 0 0;
-    }
-    
-    .text-block {
-        margin-bottom: 3em;
     }
     
     .logo {
