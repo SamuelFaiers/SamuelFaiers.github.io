@@ -270,12 +270,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin: 1.875em auto;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 img.final {
     margin-bottom: 2em;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 @media only screen and (min-width: 640px) {
