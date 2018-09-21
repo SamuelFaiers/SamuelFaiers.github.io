@@ -2,9 +2,9 @@ $(document).ready(function () {
 
     "use strict";
     
-    $("a[href='#contact']").click(function () {
+    $("a[href='#about']").click(function () {
         $("html, body").animate({
-            scrollTop: $("#contact").offset().top
+            scrollTop: $("#about").offset().top
         }, "slow");
         return false;
     });
