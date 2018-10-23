@@ -234,6 +234,10 @@ section {
     margin-top: 80px;
 }
 
+.white-border {
+    border: solid 2px #ffffff;
+}
+
 .text-block.no-margin-top h3 {
     margin-top: 0;
 }
