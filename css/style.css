@@ -39,6 +39,10 @@ p:last-of-type {
     margin-bottom: 0;
 }
 
+.skills {
+    margin: 0.3em auto 0;
+}
+
 .text-block {
     max-width: 680px;
     margin: 0 auto;
@@ -250,7 +254,7 @@ section {
     color: #34353C;
     background: #FFB179;
     border: solid 3px #FFB179;
-    padding: 10px 18px;
+    padding: 10px 15px;
     margin: 40px 20px 0 0;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
@@ -477,6 +481,9 @@ footer {
     
     .nav li a {
         padding: 0 25px;
+    }
+    #work h3 {
+        margin-top: 0;
     }
 }
 
