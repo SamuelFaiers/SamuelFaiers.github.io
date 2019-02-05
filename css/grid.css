@@ -46,6 +46,7 @@ row:after {
 
 [class*="col-"] img {
     width: 100%;
+    display: block;
 }
 
 @media screen and (min-width:320px){

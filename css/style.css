@@ -18,7 +18,7 @@ h2 {
     font-size: 2.25rem;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -31,7 +31,7 @@ p {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.6;
-    margin: 0.6em auto 1.6em;
+    margin: 1em auto 0;
     padding: 0;
 }
 
@@ -40,7 +40,7 @@ p:last-of-type {
 }
 
 .skills {
-    margin: 0.3em auto 0;
+    margin: 0.5em auto 0;
 }
 
 .text-block {
@@ -170,12 +170,16 @@ svg path {
 }
 
 section {
-    margin-top: 80px;
+    margin-top: 8em;
+}
+
+#work section {
+    margin-top: 4em;
 }
 
 .project {
     float: left;
-    margin-top: 40px;
+    margin-top: 4em;
 }
 
 #work h2 {
@@ -193,7 +197,7 @@ section {
     font-weight: 500;
     text-decoration: none;
     color: #ffb179;
-    margin: 18px 0 22px;
+    margin: 1em auto 0.5em;
     padding-bottom: 6px;
 }
 
@@ -235,7 +239,7 @@ section {
 }
 
 .content-wrapper img {
-    margin-top: 80px;
+    margin-top: 4em;
 }
 
 .white-border {
@@ -255,7 +259,7 @@ section {
     background: #FFB179;
     border: solid 3px #FFB179;
     padding: 10px 15px;
-    margin: 40px 20px 0 0;
+    margin: 2em 1em 0 0;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
@@ -271,10 +275,6 @@ section {
 .button:hover {
     color: #FFB179;
     background: #34353C;
-}
-
-.margin-top {
-    margin-top: 40px;
 }
 
 footer {
@@ -471,9 +471,6 @@ footer {
 /***Media queries***/
 
 @media screen and (min-width:640px) {
-    .margin-top {
-        margin-top: 0px;
-    }
     
     .nav li {
         margin: 0 20px;
@@ -509,23 +506,15 @@ footer {
         font-size: 2.25rem;
     }
 
-    section {
-        margin-top: 100px;
-    }
-
-    .project {
-        margin-top: 80px;
-    }
-
     .content-wrapper {
         margin-top: 170px;
-    }
-
-    .content-wrapper img {
-        margin-top: 100px;
     }
 
     footer {
         margin-top: 120px;
     }
+    
+    .margin-top {
+    margin-top: 100px;
+}
 }
