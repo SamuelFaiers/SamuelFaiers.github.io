@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Faiers | Disciple Design System</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="navbar" id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="navbar-wrapper">
+                        <div class="logo"><a href="index.html"><img src="img/logo.svg" alt="logo homepage link" /></a></div>
+                        <div class="navigation">
+                            <div class="nav-links">
+                                <a href="index.html#work">Work</a>
+                                <a href="index.html#about">About</a>
+                                <a href="pdf/Samuel%20Faiers%20-%20CV.pdf" target="_blank">CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-container">
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h1>Disciple Media: Design System</h1>
+                            <p>I was heavily involved in building and maintaining the design system for Disciple, a SaaS company whose product lets community leaders create their own independent community platforms on web, iOS and Android.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="img/disciple-design-system-main.jpg" alt="A sample of Disciple Media's design system." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Background</h2>
+                            <p>Disciple already had an asset library in use, but it was poorly organised and lacked any documentation. This made it difficult to use and understand, leading to components being inconsistently designed and implemented.</p>
+                        </div>
+                        <div class="text-block">
+                            <h2>Solution</h2>
+                            <p>By establishing a true design system, a clear set of standards would be provided. These would guide design decisions and coordinate the creation, organisation and implementation of components.</p>
+                        </div>
+                        <div class="text-block no-margin">
+                            <h2>Outcome</h2>
+                            <p>The design process saw a significant increase in efficiency. Likewise, the UI benefitted from greater consistency and is on track to be improved visually, now that the asset library is well organised.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="seperator"></div>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Examination</h2>
+                            <p>We started by examining the designs and systems Disciple already had in place. This was to identify any repeating design patterns that could be implemented into the new design system, with or without modification. This gave us a foundation to build upon, rather than from the ground up.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Colour</h2>
+                            <p>Disciple’s brand colours were implemented into the design system as a set of colour styles. Because they were due to be changed as part of a large scale rebrand, they were given less descriptive names like “primary”. This way there would be no need to rename any styles or classes to prevent confusion.</p>
+                            <p>The product presented a different challenge. This was because customers are able to customise their community platform's colour scheme. Luckily, there was already a system in place, where each UI element is assigned a class that controls its values. These values are then set by the customer in their CMS.</p>
+                            <p>We created a set of distinct colour styles to correspond with these classes. While these are not exactly “pretty” to look at in designs, they are easily distinguishable and therefore easy to identify, minimising any room for error.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="img/disciple-colours.png" alt="Disciple design system colours" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <p>These styles are split into categories based on where they should be used. For example, “wall” colours must only be used on the background of the community platform. Using a colour style on a background style from a different category was forbidden, as doing so always led to issues, such as poor colour contrast.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/disciple-correct-colours.jpg" alt="A post with correctly applied colour styles." />
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/disciple-incorrect-colours.jpg" alt="A post with correctly applied colour styles." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Typography</h2>
+                            <p>We chose Proxima Nova as our typeface because of its eligibility and geometric appearance pairing well with Disciple’s SaaS product. Rather than purchasing a license for every font available, we limited our options to light, regular, bold and italic. This was to keep costs down most of all, but had the added benefit of encouraging a clear cut visual hierarchy by limiting options to 4 fonts rather than 48.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/disciple-small-type-scale.png" alt="Disciple's small typography scale" />
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/disciple-large-type-scale.png" alt="Disciple's large typography scale" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <p>With the typeface chosen we added a number of font styles to the design system. These were used to create two type scales. We decided on two type scales because the typography requirements of Disciple’s marketing platforms and the product differed slightly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Layout</h2>
+                            <p>We found that the spacing and sizing of elements was often decided on a case by case basis. These were two of the main inconsistencies throughout both the product and marketing website. Our solution to this was a scale that would determine the size of elements and spacing between them. This would bring spatial harmony to the product and website, allowing them to be perceived and higher in quality and more trustworthy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/disciple-spacing-scale-1.png" alt="Disciple's spacing scale." />
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/disciple-spacing-scale-2.png" alt="A post showing how the spacing scale is applied." />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <p>I introduced this as an 8 point scale. By using an even number as a base, elements could be aligned, without worrying about decimal units complicating measurements. Additionally, it provided a good balance between flexibility and a manageable number of variables. A 4 point scale was also introduced for elements that required more intricate layouts inside of components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <p>Finally, I also made sure to outline how interactive elements should be laid out to accommodate for sufficient target sizes. This ensured that all interactive elements would be easily accessible to the customer and end-users.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="img/disciple-target-layout.png" alt="Buttons showing correct target size and spacing." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Iconography</h2>
+                            <p>Throughout existing designs, outlined and filled icons from different sources were being used with no real logic behind them. We therefore decided to overhaul iconography. The Ionic icon pack was used as a base for a quick solution without the need to design an entire library ourselves. Outlined icons would be used as the “default” states, while their filled versions would show an active state where necessary.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="img/disciple-icons.jpg" alt="Outlined and filled versions of Disciple's icons." />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <p>When creating a custom icon, designers would be required to do so at a size of 16x16 pixels with a stroke width of 1. The stroke would then need to be expanded, to ensure that it scales correctly after being exported as an SVG. Once we had enough custom icons, we would create our own icon pack for designers and developers to use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block">
+                            <h2>Asset library</h2>
+                            <p>While taking inventory on all of the components in the asset library, several steps were taken to improve its organisation. The first was to identify any components that shared the same function and decide which one should be used while removing the other(s). We also removed any components that were too specific to be reused and were therefore redundant. The next step was influenced by our decision to organise the asset library following the <a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank">atomic design framework</a>. Because there were several larger “organism” components that had repeated elements of their own, we extracted those smaller elements and made them “molecule” and “atom” components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="img/disciple-atomic-design.png" alt="button and icon component frames under the heading 'Atoms'." />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-block no-margin">
+                            <p>The main advantage of organising components in this way is that it provided a clear method for locating components, increasing the design team’s efficiency. Atomic design also encourages designers to see interfaces as both a collection of parts and the whole they combine to create. This helps them make the best design decisions for each individual component and the final UI simultaneously.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact-links">
+                        <a href="mailto:sam@faiers.net"><img src="img/email.svg" alt="Link to email me" target="_blank" /></a><a href="https://www.linkedin.com/in/samuelfaiers/"><img src="img/linkedin.svg" alt="Link to my LinkedIn profile" target="_blank" /></a><a href="https://github.com/SamuelFaiers"><img src="img/github.svg" alt="Link to my GitHub profile" target="_blank" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>

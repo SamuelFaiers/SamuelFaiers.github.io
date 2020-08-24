@@ -1,20 +1,20 @@
-//Sticky header
+//Sticky navbar
 
-var header = document.getElementById("header");
-var fixed = header.offsetTop;
+var navbar = document.getElementById("navbar");
+var fixed = navbar.offsetTop;
 
-function stickyheader() {
+function stickynavbar() {
     "use strict";
     if (window.pageYOffset > fixed) {
-        header.classList.add("fixed");
+        navbar.classList.add("fixed");
     } else {
-        header.classList.remove("fixed");
+        navbar.classList.remove("fixed");
     }
 }
 
 window.onscroll = function () {
     "use strict";
-    stickyheader();
+    stickynavbar();
 };
 
 $("a[href='#work']").click(function () {
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     "use strict";
-    $("a[href='index.html#contact']").click(function () {
+    $("a[href='#contact']").click(function () {
         $("html, body").animate({
             scrollTop: $("#contact").offset().top
         }, "slow");
