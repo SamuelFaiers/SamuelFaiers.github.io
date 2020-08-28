@@ -77,6 +77,10 @@ row:after {
     .col-md-10 {width: 83.33333%;}
     .col-md-11 {width: 91.66667%;}
     .col-md-12 {width: 100%;}
+    
+    .push {
+        float: right;
+    }
 }
 
 @media screen and (min-width:1024px){
