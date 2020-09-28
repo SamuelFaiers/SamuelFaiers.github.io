@@ -515,7 +515,7 @@ footer {
 }
 
 .contact-links img {
-    max-width: 32px;
+    width: 32px;
     opacity: 0.72;
 }
 
