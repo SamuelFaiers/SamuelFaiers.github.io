@@ -54,11 +54,11 @@ h3 {
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.125rem;
 }
 
 h5 {
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 p {
@@ -82,15 +82,15 @@ p:last-child {
     }
 
     h3 {
-        font-size: 1.75rem;
-    }
-
-    h4 {
         font-size: 1.5rem;
     }
 
-    h5 {
+    h4 {
         font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1.125rem;
     }
 
     p {
