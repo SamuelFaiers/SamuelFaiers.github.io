@@ -27,7 +27,7 @@ $("a[href='#work']").click(function () {
 
 $(document).ready(function () {
     "use strict";
-    $("a[href='index.html']").click(function () {
+    $("a[href='https://samuelfaiers.github.io/']").click(function () {
         $("html, body").animate({
             scrollTop: $("#home").offset().top
         }, "slow");
@@ -37,7 +37,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     "use strict";
-    $("a[href='index.html#work']").click(function () {
+    $("a[href='#work']").click(function () {
         $("html, body").animate({
             scrollTop: $("#work").offset().top
         }, "slow");
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     "use strict";
-    $("a[href='index.html#about']").click(function () {
+    $("a[href='#about']").click(function () {
         $("html, body").animate({
             scrollTop: $("#about").offset().top
         }, "slow");
