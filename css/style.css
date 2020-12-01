@@ -21,7 +21,7 @@ h5 {
     line-height: 1.6;
     margin-top: 0;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
@@ -130,7 +130,7 @@ a {
 }
 
 section {
-    padding: 32px 0;
+    padding: 40px 0;
 }
 
 .seperator {
@@ -189,7 +189,6 @@ section {
     background: #FFB179;
     border: solid 2px #FFB179;
     padding: 12px 20px;
-    margin-top: 0.5rem;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
@@ -289,7 +288,7 @@ section {
 .intro-container {
     width: 100%;
     height: 60vh;
-    margin: 64px auto 32px;
+    margin: 64px auto 40px;
 }
 
 .intro {
@@ -307,6 +306,12 @@ section {
     align-items: center;
 }
 
+@media screen and (min-width: 640px) {
+    .intro-container {
+        margin-bottom: 80px;
+    }
+}
+
 /*Shapes*/
 
 .shapes {
@@ -316,13 +321,19 @@ section {
     left: 0;
     width: 100%;
     height: 60vh;
-    margin: 64px auto;
+    margin: 64px auto 40px;
     z-index: -1;
 }
 
 @media screen and (min-width: 376px) {
     .shapes {
         display: block;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .shapes {
+        margin-bottom: 80px;
     }
 }
 
@@ -505,7 +516,7 @@ section {
 /******Work******/
 
 .project {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .project h2 {
@@ -513,7 +524,7 @@ section {
 }
 
 .project img {
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 @media screen and (min-width: 640px) {
@@ -574,7 +585,7 @@ footer {
 }
 
 .content-container img {
-    border-radius: 2px;
+    border-radius: 4px;
     margin-bottom: 32px;
 }
 

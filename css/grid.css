@@ -21,6 +21,9 @@ body {
 }
 
 .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
@@ -78,8 +81,12 @@ row:after {
     .col-md-11 {width: 91.66667%;}
     .col-md-12 {width: 100%;}
     
+    .row {
+        flex-direction: row;
+    }
+    
     .push {
-        float: right;
+        order: 2;
     }
 }
 
