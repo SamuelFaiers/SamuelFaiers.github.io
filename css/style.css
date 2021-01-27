@@ -8,7 +8,7 @@
 html {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
-    color: #fff;
+    color: #d6d7db;
     background: #393a41;
 
 }
@@ -19,6 +19,7 @@ h3,
 h4,
 h5 {
     line-height: 1.6;
+    color: #ffffff;
     margin-top: 0;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -69,9 +70,10 @@ h5 {
 .subtitle {
     font-size: 1.375rem;
     line-height: 1.6;
+    color: #ffffff
 }
 
-p {
+p, li {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1em;
@@ -79,6 +81,16 @@ p {
 
 p:last-child {
     margin-bottom: 0;
+}
+
+ul {
+    list-style-position: outside;
+    padding-left: 1rem;
+}
+
+.bold {
+    font-weight: 500;
+    color: #ffffff;
 }
 
 @media screen and (min-width: 640px) {
@@ -106,7 +118,7 @@ p:last-child {
         font-size: 1.75rem;
     }
 
-    p {
+    p, li {
         font-size: 1.25rem;
     }
     
@@ -122,6 +134,10 @@ a {
     color: #78C5FF;
 }
 
+p a:hover {
+    text-decoration: underline;
+}
+
 .heading-underline {
     background-color: #FFB179;
     width: 80px;
@@ -130,7 +146,7 @@ a {
 }
 
 section {
-    padding: 40px 0;
+    padding: 32px 0;
 }
 
 .seperator {
@@ -140,7 +156,7 @@ section {
 
 @media screen and (min-width: 640px) {
     section {
-        padding: 80px 0;
+        padding: 64px 0;
     }
 }
 
@@ -152,11 +168,12 @@ section {
 
 .highlight {
     color: #ffb179;
+    font-weight: 500;
 }
 
 .quote {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 32px;
     margin-bottom: 32px;
 }
@@ -234,6 +251,7 @@ section {
 .name {
     font-size: 1.25rem;
     font-weight: 500;
+    color: #ffffff;
     display: none;
 }
 
@@ -584,13 +602,60 @@ footer {
     margin-top: 80px;
 }
 
-.content-container img {
+.content-container img, .table-container {
     border-radius: 4px;
     margin-bottom: 32px;
 }
 
+.stats {
+    margin-bottom: 32px;
+}
+
+.stats h3 {
+    color: #FFB179
+}
+
+.table-container {
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    overflow-x: auto;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 12px;
+    display: table-cell;
+    width: 2%;
+}
+
+td {
+    border-top: solid 2px rgba(255, 255, 255, 0.05);
+}
+
+.success {
+    color: #9deb8f;
+}
+
+.level-1 {
+    color: #FFB179;
+}
+
+.level-2 {
+    color: #FF8080;
+}
+
 @media screen and (min-width: 640px) {
-    .content-container img {
+    .content-container img, .stats, .table-container {
         margin-bottom: 64px;
+    }
+    
+    th, td {
+        font-size: 1.25rem;
     }
 }
